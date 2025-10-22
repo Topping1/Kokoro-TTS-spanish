@@ -9,10 +9,10 @@ Convierte texto en español en una secuencia fonémica y luego genera un archivo
 ## 🚀 Instalación
 
 1. **Clonar el repositorio**
-   ```bash
+   ```
    git clone https://github.com/usuario/kokoro-tts-espanol.git
    cd kokoro-tts-espanol
-````
+   ```
 
 2. **Descargar los modelos desde la sección de *Releases*:**
 
@@ -25,7 +25,7 @@ Convierte texto en español en una secuencia fonémica y luego genera un archivo
 
 3. **Instalar dependencias**
 
-   ```bash
+   ```
    pip install numpy onnxruntime sounddevice soundfile scipy
    ```
 
@@ -37,7 +37,7 @@ Convierte texto en español en una secuencia fonémica y luego genera un archivo
 
 Ejecuta el programa desde la terminal:
 
-```bash
+```
 python tts-kokoro-esp.py
 ```
 
@@ -62,12 +62,12 @@ El resultado se guarda como **`output.wav`** en el directorio actual.
 
 ```mermaid
 flowchart TD
-    A[Texto en español] --> B[G2P (g2p_lib.py)]
-    B --> C[Texto fonémico (IPA aproximado)]
-    C --> D[Tokenización (mapa fonema→ID)]
-    D --> E[Kokoro-82M modelo ONNX]
-    E --> F[Generación de audio WAV]
-    F --> G[Reproducción opcional]
+    A["Texto en español"] --> B["G2P (g2p_lib.py)"]
+    B --> C["Texto fonémico (IPA aproximado)"]
+    C --> D["Tokenización (mapa fonema→ID)"]
+    D --> E["Kokoro-82M modelo ONNX"]
+    E --> F["Generación de audio WAV"]
+    F --> G["Reproducción opcional"]
 ```
 
 ---
