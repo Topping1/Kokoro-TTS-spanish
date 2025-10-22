@@ -10,8 +10,8 @@ Convierte texto en español en una secuencia fonémica y luego genera un archivo
 
 1. **Clonar el repositorio**
    ```
-   git clone https://github.com/usuario/kokoro-tts-espanol.git
-   cd kokoro-tts-espanol
+   git clone https://github.com/Topping1/Kokoro-TTS-spanish
+   cd Kokoro-TTS-spanish
    ```
 
 2. **Descargar los modelos desde la sección de *Releases*:**
