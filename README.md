@@ -16,10 +16,10 @@ Convierte texto en español en una secuencia fonémica y luego genera un archivo
 
 2. **Descargar los modelos desde la sección de *Releases*:**
 
-   * [model.onnx](https://github.com/usuario/kokoro-tts-espanol/releases/download/v1.0/model.onnx)
-   * [ef_dora.bin](https://github.com/usuario/kokoro-tts-espanol/releases/download/v1.0/ef_dora.bin)
-   * [em_alex.bin](https://github.com/usuario/kokoro-tts-espanol/releases/download/v1.0/em_alex.bin)
-   * [em_santa.bin](https://github.com/usuario/kokoro-tts-espanol/releases/download/v1.0/em_santa.bin)
+   * [model.onnx](https://github.com/Topping1/Kokoro-TTS-spanish/releases/download/alpha_v1/model.onnx)
+   * [ef_dora.bin](https://github.com/Topping1/Kokoro-TTS-spanish/releases/download/alpha_v1/ef_dora.bin)
+   * [em_alex.bin](https://github.com/Topping1/Kokoro-TTS-spanish/releases/download/alpha_v1/em_alex.bin)
+   * [em_santa.bin](https://github.com/Topping1/Kokoro-TTS-spanish/releases/download/alpha_v1/em_santa.bin)
 
    📁 Coloca los archivos `.bin` dentro de la carpeta `voices/` y el modelo `model.onnx` dentro de la carpeta `onnx/`.
 
